@@ -25,3 +25,20 @@ div.center {
 .paragraph-text{
 	font-size: 20px;
 }
+
+ul.develop-skills{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.develop-skills > li{
+	display: inline;
+	padding: 20px;
+}
+
+.img-skills {
+	width: 150px;
+	height: 150px;
+}

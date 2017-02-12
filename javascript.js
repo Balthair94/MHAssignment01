@@ -7,3 +7,8 @@ function showHide(id) {
 		document.getElementById(id).className = "table-tr-hide"
 	}
 }
+
+function moveTo(id){
+	element = document.getElementById(id)
+	element.scrollIntoView(true);
+}

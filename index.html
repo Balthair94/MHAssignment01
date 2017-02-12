@@ -12,14 +12,14 @@
 
 	 <!--MENU BAR-->
      <div class="container">
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top sticky">
          <div class="container">
            <div id="navbar" class="navbar-collapse collapse navbar-container">
               <ul class="nav navbar-nav">
-                <li><a href="#me">About me</a></li>
-                <li><a href="#skills">My Skills</a></li>
-                <li><a href="#projects">My Projects</a></li>
-                <li><a href="#hobbies">My Hobbies</a></li>
+                <li><a href="#me" onclick="moveTo('aboutMe')">About me</a></li>
+                <li><a href="#skills" onclick="moveTo('mySkills')">My Skills</a></li>
+                <li><a href="#projects" onclick="moveTo('myProjects')">My Projects</a></li>
+                <li><a href="#hobbies" onclick="moveTo('myHoobies')">My Hobbies</a></li>
               </ul>
             </div>
           </div>
@@ -27,13 +27,13 @@
      </div>
 
      <!--IMAGE-->
-     <div class="container center">
+     <div class="container center container-margin">
      	<h1>Hi, my name is Baltazar</h1>
      	<img src="images/image_me.jpg" class="img-circle profile-image" alt="Cinque Terre">
      </div>
 
      <!--ABOUT ME-->
-     <div class="container container-margin">
+     <div class="container container-margin" id="aboutMe">
      	<nav class="navbar navbar-inverse navbar-static-top">
      		<div class="container">
      			<h1 class="section-text-color">About me</h1>
@@ -46,8 +46,8 @@
      	</div>
      </div>
 
-     <!--MY PROFESSION-->
-     <div class="container container-margin">
+     <!--MY SKILLS-->
+     <div class="container container-margin" id="mySkills">
      	<nav class="navbar navbar-inverse navbar-static-top">
      		<div class="container">
      			<h1 class="section-text-color">My Skills</h1>
@@ -65,7 +65,7 @@
      </div>
 
      <!--MY PROJECTS-->
-     <div class="container container-margin">
+     <div class="container container-margin" id="myProjects">
      	<nav class="navbar navbar-inverse navbar-static-top">
      		<div class="container">
      			<h1 class="section-text-color">My Projects</h1>
@@ -127,6 +127,34 @@
      				</tr>
      			</tbody>
      		</table>
+     	</div>
+     </div>
+
+     <!--MY HOOBIES-->
+     <div class="container container-margin" id="myHoobies">
+     	<nav class="navbar navbar-inverse navbar-static-top">
+     		<div class="container">
+     			<h1 class="section-text-color">My Hoobies</h1>
+     		</div>
+     	</nav>
+     	<div class="container center">
+     		<ul class="develop-skills">
+     			<li>     				
+     				<a href="https://playoverwatch.com/es-es/" title="Overwatch">
+     					<img class="img-skills img-circle profile-image" src="images/img-ov.jpg" alt="">
+     				</a>
+     			</li>
+     			<li>
+     				<a href="http://www.animeid.tv/" title="Anime">
+     					<img class="img-skills img-circle profile-image" src="images/img-anime.jpg" alt="">
+     				</a>
+     			</li>
+     			<li>
+     				<a href="http://kisscartoon.se/" title="Cartoons">
+     					<img class="img-skills img-circle profile-image" src="images/img-cartoons.jpg" alt="">
+     				</a>     				
+     			</li>
+     		</ul>
      	</div>
      </div>
 

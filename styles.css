@@ -42,3 +42,20 @@ ul.develop-skills > li{
 	width: 150px;
 	height: 150px;
 }
+
+.table-td-strong{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+.table-tr-hide{
+	display:none;
+}
+
+.table-tr-show{
+	display:inline;
+}

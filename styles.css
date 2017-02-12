@@ -1,4 +1,27 @@
-.navbar_container{
+.navbar-container{
 	margin: 20px;
+	font-size: 20px;
+}
+
+div.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-image{
+	width: 400px;
+	height: 400px;
+}
+
+
+.container-margin{
+	margin-top: 50px;
+}
+
+.section-text-color{
+	color: white;
+}
+
+.paragraph-text{
 	font-size: 20px;
 }

@@ -58,3 +58,10 @@ ul.develop-skills > li{
 .table-tr-show{
 	display:inline;
 }
+
+.back-image {
+    background-image: url(images/back.jpg);
+    background-position: center;
+    background-size: cover;
+	color: black;
+}

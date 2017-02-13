@@ -9,5 +9,5 @@ function showHide(id) {
 
 function moveTo(id){
 	element = document.getElementById(id)
-	element.scrollIntoView();
+	element.scrollIntoView(true);
 }

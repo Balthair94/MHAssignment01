@@ -11,24 +11,24 @@
 <body>
 
 	 <!--MENU BAR-->
-     <div class="container">
-        <nav class="navbar navbar-inverse navbar-fixed-top sticky">
-         <div class="container">
-           <div id="navbar" class="navbar-collapse collapse navbar-container">
-              <ul class="nav navbar-nav">
-                <li><a href="#me" onclick="moveTo('aboutMe')">About me</a></li>
-                <li><a href="#skills" onclick="moveTo('mySkills')">My Skills</a></li>
-                <li><a href="#projects" onclick="moveTo('myProjects')">My Projects</a></li>
-                <li><a href="#hobbies" onclick="moveTo('myHoobies')">My Hobbies</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-     </div>
+     <header id="header">
+     	<div class="container">
+        	<nav class="navbar navbar-inverse navbar-fixed-top sticky">
+         		<div class="container navbar-container">
+              		<ul class="nav navbar-nav">
+                		<li><a href="#me" onclick="moveTo('aboutMe')">About me</a></li>
+                		<li><a href="#skills" onclick="moveTo('mySkills')">My Skills</a></li>
+                		<li><a href="#projects" onclick="moveTo('myProjects')">My Projects</a></li>
+                		<li><a href="#hobbies" onclick="moveTo('myHoobies')">My Hobbies</a></li>
+              		</ul>
+          		</div>
+        	</nav>
+     	</div>
+     </header><!-- /header -->
 
      <!--IMAGE-->
-     <div class="container center container-margin">
-     	<h1>Hi, my name is Baltazar</h1>
+     <div class="container center">
+     	<h1 class="container-margin">Hi, my name is Baltazar</h1>
      	<img src="images/image_me.jpg" class="img-circle profile-image" alt="Cinque Terre">
      </div>
 
@@ -41,8 +41,8 @@
      	</nav>
      	<div class="container">
      		<p class="paragraph-text">Hi, my name is Baltazar Rodriguez Ramirez. I am from Tecoman, Colima in Mexico country. It is a complicated place that has a lot of problems, but the good thing there is that in Tecoman there is a lot of tacos stalls.</p>
-     		<p class="paragraph-text">When I was a kid I always felt curiosity by computers, because I thought that they were wonderful. It was wonderful to think in the world of possibilities that can arise in only one and small machine. Be able to process information and then present it to the people in a way that they can understan. And not only be able to show information to people is greate, also make aplications that can do their lives more simple is realy awesome.</p>
-			<p class="paragraph-text">I want to create amazing aplications.</p>
+     		<p class="paragraph-text">When I was a kid I always felt curiosity by computers, because I thought that they were wonderful. It was wonderful to think in the world of possibilities that can arise in only one and small machine. Be able to process information and then present it to the people in a way that they can understand. And not only be able to show information to people is greate, also make applications that can do their lives more simple is really awesome.</p>
+			<p class="paragraph-text">I want to create amazing applications.</p>
      	</div>
      </div>
 
@@ -158,10 +158,10 @@
      	</div>
      </div>
 
-    <footer>
-  		<p>Baltazar Rodriguez Ramirez</p>
-  		<p>Contact information: <a href="mailto:someone@example.com">
-  		archerbaltazar@gmail.com</a>.</p>
+    <footer class="footer">
+  		<div class="container container-margin">
+  			<span class="text-muted">Baltazar Rodriguez Ramirez</span class="text-muted">
+  		</div>
 	</footer>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

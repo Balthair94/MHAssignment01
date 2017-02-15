@@ -20,19 +20,19 @@ div.center {
 	font-size: 20px;
 }
 
-ul.develop-skills{
+ul.hobbies{
 	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-ul.develop-skills > li{
+ul.hobbies > li{
 	display: inline;
 	padding: 20px;
 }
 
-.img-skills {
+.img-hobbies {
 	width: 150px;
 	height: 150px;
 }
@@ -55,10 +55,11 @@ ul.develop-skills > li{
 }
 
 .back-image {
-    background-image: url(images/back.jpg);
+    background-image: url(../images/back.jpg);
     background-position: center;
     background-size: cover;
 	color: black;
+	background-image: no-repeat;
 }
 
 body{
